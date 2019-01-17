@@ -1,10 +1,6 @@
 body {
     background-image: linear-gradient(#000, #666);
     background-attachment: fixed;
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 }
 
 nav {
@@ -42,19 +38,28 @@ nav ul li a:hover{
     color: #FFF;
 }
 
-<<<<<<< HEAD
 #basic-section {
   display: flex;
   flex-direction: column;
   margin: 10%;
   align-content: space-between;
-  padding: 0 4px;
+  padding: 1 1;
 }
 
 #column {
-    /* position: relative; */
+    position: relative;
     flex: 50%;
     padding: 0 4px;
+}
+
+#row, #gdeon {
+    color: white;
+}
+
+#alias-section {
+    color: #06e20a;
+    text-shadow: 2px 1px #354237;
+    
 }
 
 .text-block {
@@ -66,16 +71,14 @@ nav ul li a:hover{
     padding-left: 20px;
     padding-right: 20px;
 }
-/* The hero image */
+
 .hero-image {
-    
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-position: center;
     filter: blur(8px);
     -webkit-filter: blur(8px);
     background-repeat: no-repeat;
     background-size: cover;
-
     position: relative;
   }
   
@@ -86,7 +89,7 @@ nav ul li a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-=======
+}
 .news-section{
     background-color: #000;
     padding-top: 10px;
@@ -99,5 +102,4 @@ nav ul li a:hover{
     text-decoration: underline;
     font-size: 2rem;
     color: #FFF;
->>>>>>> master
 }
