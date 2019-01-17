@@ -1,0 +1,38 @@
+body {
+    background-color: #666;
+}
+
+nav{
+    background-image: linear-gradient(to bottom right, gray, white);
+    height: 10vh;
+    border: 5px inset #999;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+    align-content: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5rem;
+}
+
+nav ul li a:hover{
+    color: #FFF;
+}
