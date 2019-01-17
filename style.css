@@ -1,5 +1,7 @@
 body {
-    background-color: #666;
+        background-image: linear-gradient(#000, #666);
+        background-attachment: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav{
@@ -36,3 +38,57 @@ nav ul li a {
 nav ul li a:hover{
     color: #FFF;
 }
+
+.careerBio{
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    margin:2.5em;
+    font-size: 1.5em
+}
+
+.careerBio div{
+    padding-left: 3rem
+}
+
+.careerWorks{
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2.5em;
+    font-size:1.5em;
+}
+.careerWorks img{
+    height: 20%;
+    width: 20%;
+
+}
+
+.careerHomes{
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2.5em;
+    font-size:1.5em;
+}
+
+.careerCollabs{
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2.5em;
+    font-size:1.5em;
+}
+.careerAwards{
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2.5em;
+    font-size:1.5em;
+}
+
