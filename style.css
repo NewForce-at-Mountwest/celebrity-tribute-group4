@@ -106,7 +106,8 @@ nav ul li a:hover{
         display: flex;
         flex-flow: row wrap;
         margin:2.5em;
-        font-size: 1.5em
+        font-size: 1.5em;
+        padding-top: .7em;
     }
     
     .careerBio div{
@@ -124,6 +125,8 @@ nav ul li a:hover{
         font-size:1.5em;
         width: 20%;
         height: 75%;
+        padding-bottom: .7rem;
+        padding-top: .7rem;
     }
     .careerWorks img{
         padding-left: 1.8rem;
@@ -144,6 +147,7 @@ nav ul li a:hover{
         width: 50%;
         height: 75%;
         float: right;
+        padding-top:.7rem;
     }
     
     .careerHomes .homesText{
