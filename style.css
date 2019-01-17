@@ -36,3 +36,9 @@ nav ul li a {
 nav ul li a:hover{
     color: #FFF;
 }
+
+#collab-list{
+	display: grid;
+	grid-row-gap: 20%;
+    justify-content: center;
+}
