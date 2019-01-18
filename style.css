@@ -176,13 +176,16 @@ nav ul li a:hover{
     flex-flow: column wrap;
     text-align: center;
     justify-content: center;
-    /* margin: 2.5em; */
+    margin: 2.5em;
     font-size:1.5em;
     width: 100%;
-    height: 75%;
+    height: 80%;
     padding-bottom: .7rem;
     padding-top: .7rem;
+    display: inline;
 }
+
+
 .Victims {background-color: #000;
     color: white;
     display: flex;
