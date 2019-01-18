@@ -166,7 +166,7 @@ nav ul li a:hover{
     .flexbox {
         display: flex;
     }
-    #Infohead {text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white; font-weight: bolder
+    #Infohead {border: 5px inset #999; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white; font-weight: bolder
     }
 
 .birthInfo { border: 5px inset #999 
@@ -183,7 +183,7 @@ nav ul li a:hover{
     padding-bottom: .7rem;
     padding-top: .7rem;
 }
-.Victims {border: 5px inset #999; background-color: #000;
+.Victims {background-color: #000;
     color: white;
     display: flex;
   
@@ -192,13 +192,15 @@ nav ul li a:hover{
     
 margin-top: 2.5em}
 
-    .viclist{border: 5px inset #999; background-color: #000;
+    .viclist{background-color: #000;
         color: white;
         display: flex;
         font-size:1.5em;   
     list-style-type: none }
 
-    .Kilmer{border: 5px inset #999; text-align: center; color: white; font-weight: bolder;
+    #victimshead{border: 5px inset #999}
+
+    .Kilmer{text-align: center; color: white; font-weight: bolder;
     text-decoration: underline}
 
     .vicpic{border: 5px inset #999; display: inline;}
