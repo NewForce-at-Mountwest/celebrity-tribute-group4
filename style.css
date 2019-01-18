@@ -1,0 +1,98 @@
+body {
+    background-image: linear-gradient(#000, #666);
+    background-attachment: fixed;
+
+}
+
+nav {
+    background-image: linear-gradient(to bottom right, gray, white);
+    height: 10vh;
+    border: 5px inset #999;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+    align-content: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5rem;
+}
+
+nav ul li a:hover{
+    color: #FFF;
+}
+
+<<<<<<< HEAD
+#basic-section {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  align-content: space-between;
+  padding: 0 4px;
+}
+
+#column {
+    /* position: relative; */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.text-block {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* The hero image */
+.hero-image {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+  }
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+.news-section{
+    background-color: #000;
+    padding-top: 10px;
+    margin-top: 50px;
+    width: 50%;
+    color: #FFF;
+}
+.news-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: #FFF;
+}
