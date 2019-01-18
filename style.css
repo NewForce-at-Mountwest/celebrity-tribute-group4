@@ -4,12 +4,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: linear-gradient(#000, #666);
     background-attachment: fixed;
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 }
-
 nav {
     background-image: linear-gradient(to bottom right, gray, white);
     height: 10vh;
@@ -113,6 +108,7 @@ nav ul li a:hover{
 }
 .news-section{
     background-color: #000;
+    border: 5px inset #999;
     padding-top: 10px;
     margin-top: 50px;
     width: 50%;
@@ -126,6 +122,7 @@ nav ul li a:hover{
 
     .careerBio{
         background-color: #000;
+        border:  5px inset #999;
         color: white;
         display: flex;
         flex-flow: row wrap;
@@ -140,12 +137,14 @@ nav ul li a:hover{
     
     .careerWorks{
         background-color: #000;
+        border: 5px inset #999;
         color: white;
         display: flex;
         flex-flow:column wrap;
         text-align: center;
         justify-content: center;
         margin: 2.5em;
+        margin-top: 0;
         font-size:1.5em;
         width: 20%;
         height: 75%;
@@ -162,11 +161,13 @@ nav ul li a:hover{
     
     .careerHomes{
         background-color: #000;
+        border: 5px inset #999;
         color: white;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         margin: 2.5em;
+        margin-top: 0;
         font-size:1.5em;
         width: 50%;
         height: 75%;
@@ -186,4 +187,8 @@ nav ul li a:hover{
     }
     .flexbox {
         display: flex;
+    }
+
+    .careerTitle{
+        padding-bottom: 1rem;  
     }
