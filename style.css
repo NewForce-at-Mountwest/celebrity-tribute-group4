@@ -4,10 +4,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: linear-gradient(#000, #666);
     background-attachment: fixed;
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 }
 
 nav {
@@ -50,37 +47,13 @@ nav ul li a:hover{
   flex-direction: column;
   margin: 10%;
   align-content: space-between;
-  padding: 1 1;
+  padding: 0 4px;
 }
 
 #column {
-    position: relative;
+    /* position: relative; */
     flex: 50%;
     padding: 0 4px;
-}
-
-#row, #gdeon {
-    color: white;
-    
-}
-
-#alias-section {
-    display: flex;
-    flex-direction: column;
-    margin: 10% 15%;
-    align-content: space-between;
-    padding: 1 1;
-    background: black;
-    border: 2px solid #06e20a;
-    color: #06e20a;
-    text-shadow: 2px 1px #354237;
-    
-    
-}
-
-#alias-inner{
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .text-block {
@@ -92,14 +65,16 @@ nav ul li a:hover{
     padding-left: 20px;
     padding-right: 20px;
 }
-
+/* The hero image */
 .hero-image {
+    
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-position: center;
     filter: blur(8px);
     -webkit-filter: blur(8px);
     background-repeat: no-repeat;
     background-size: cover;
+
     position: relative;
   }
   
@@ -109,8 +84,10 @@ nav ul li a:hover{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-}
+    color: white;}
+    
+
+
 .news-section{
     background-color: #000;
     padding-top: 10px;
@@ -122,7 +99,9 @@ nav ul li a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: underline;
     font-size: 2rem;
-    color: #FFF;}
+    color: #FFF;
+}
+
 
     .careerBio{
         background-color: #000;
@@ -187,3 +166,45 @@ nav ul li a:hover{
     .flexbox {
         display: flex;
     }
+    #Infohead {text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white; font-weight: bolder
+    }
+
+.birthInfo {
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    /* margin: 2.5em; */
+    font-size:1.5em;
+    width: 100%;
+    height: 75%;
+    padding-bottom: .7rem;
+    padding-top: .7rem;
+}
+.Victims {background-color: #000;
+    color: white;
+    display: flex;
+  
+    font-size:1.5em;
+    
+    /* padding-bottom: .7rem;
+    padding-top: .7rem; */
+margin-top: 2.5em}
+
+    .viclist{background-color: #000;
+        color: white;
+        display: flex;
+        font-size:1.5em;
+        /* padding-bottom: .7rem;
+        padding-top: .7rem; */
+    list-style-type: none }
+
+    .Kilmer{text-align: center; color: white; font-weight: bolder;
+    text-decoration: underline}
+
+    .vicpic{display: inline;}
+
+
+    
