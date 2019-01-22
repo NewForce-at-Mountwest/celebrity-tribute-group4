@@ -153,6 +153,15 @@ div #tri img {
         font-size: 1.5em;
         padding-top: .7em;
     }
+
+    .careerGraph{
+        margin-top: 2.5em;
+        margin-left: 2em;
+        width: 95%;
+        height:50%;
+        align-self: center;
+     border: 5px inset #999;
+    }
     
     .careerBio div{
         padding-left: 3rem
@@ -226,6 +235,7 @@ div #tri img {
     flex-flow: column wrap;
     text-align: center;
     justify-content: center;
+    border: 5px inset #999;
     /* margin: 2.5em; */
     font-size:1.5em;
     width: 100%;
@@ -236,6 +246,7 @@ div #tri img {
 .Victims {background-color: #000;
     color: white;
     display: flex;
+    border: 5px inset #999;
   
     font-size:1.5em;
     
